@@ -1,0 +1,9 @@
+C:\Users\Néstor\Desktop\EE4WebCam\bin\Debug\EE4WebCam.exe
+C:\Users\Néstor\Desktop\EE4WebCam\bin\Debug\EE4WebCam.pdb
+C:\Users\Néstor\Desktop\EE4WebCam\obj\x86\Debug\AppCamara.csprojResolveAssemblyReference.cache
+C:\Users\Néstor\Desktop\EE4WebCam\obj\x86\Debug\EE4Test.frmEE4WebCam.resources
+C:\Users\Néstor\Desktop\EE4WebCam\obj\x86\Debug\EE4WebCam.Properties.Resources.resources
+C:\Users\Néstor\Desktop\EE4WebCam\obj\x86\Debug\AppCamara.csproj.GenerateResource.Cache
+C:\Users\Néstor\Desktop\EE4WebCam\obj\x86\Debug\EE4WebCam.exe
+C:\Users\Néstor\Desktop\EE4WebCam\obj\x86\Debug\EE4WebCam.pdb
+C:\Users\Néstor\Desktop\EE4WebCam\bin\Debug\EE4WebCam.exe.config

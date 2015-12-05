@@ -1,0 +1,31 @@
+C:\Users\Néstor\Desktop\EE4WebCam\bin\Release\EE4WebCam.exe.config
+C:\Users\Néstor\Desktop\EE4WebCam\bin\Release\EE4WebCam.exe
+C:\Users\Néstor\Desktop\EE4WebCam\bin\Release\EE4WebCam.XmlSerializers.dll
+C:\Users\Néstor\Desktop\EE4WebCam\bin\Release\EE4WebCam.pdb
+C:\Users\Néstor\Desktop\EE4WebCam\obj\x86\Release\EE4Test.frmEE4WebCam.resources
+C:\Users\Néstor\Desktop\EE4WebCam\obj\x86\Release\EE4WebCam.Properties.Resources.resources
+C:\Users\Néstor\Desktop\EE4WebCam\obj\x86\Release\AppCamara.csproj.GenerateResource.Cache
+C:\Users\Néstor\Desktop\EE4WebCam\obj\x86\Release\EE4WebCam.exe
+C:\Users\Néstor\Desktop\EE4WebCam\obj\x86\Release\EE4WebCam.pdb
+C:\Users\Néstor\Desktop\EE4WebCam\obj\x86\Release\EE4WebCam.XmlSerializers.dll
+C:\Users\Esteban Ruiz\Documents\BitBucket\ProyIng2\AppDesktopCSharp\bin\Release\EE4WebCam.exe.config
+C:\Users\Esteban Ruiz\Documents\BitBucket\ProyIng2\AppDesktopCSharp\obj\x86\Release\EE4WebCam.exe
+C:\Users\Esteban Ruiz\Documents\BitBucket\ProyIng2\AppDesktopCSharp\obj\x86\Release\EE4WebCam.pdb
+C:\Users\Esteban Ruiz\Documents\BitBucket\ProyIng2\AppDesktopCSharp\obj\x86\Release\EE4WebCam.XmlSerializers.dll
+C:\Users\Esteban Ruiz\Documents\BitBucket\ProyIng2\AppDesktopCSharp\bin\Release\EE4WebCam.exe
+C:\Users\Esteban Ruiz\Documents\BitBucket\ProyIng2\AppDesktopCSharp\bin\Release\EE4WebCam.XmlSerializers.dll
+C:\Users\Esteban Ruiz\Documents\BitBucket\ProyIng2\AppDesktopCSharp\bin\Release\EE4WebCam.pdb
+C:\Users\Esteban Ruiz\Documents\BitBucket\ProyIng2\AppDesktopCSharp\bin\Release\Microsoft.Expression.Encoder.dll
+C:\Users\Esteban Ruiz\Documents\BitBucket\ProyIng2\AppDesktopCSharp\bin\Release\Microsoft.Expression.Encoder.Types.dll
+C:\Users\Esteban Ruiz\Documents\BitBucket\ProyIng2\AppDesktopCSharp\bin\Release\Microsoft.Expression.Encoder.Utilities.dll
+C:\Users\Esteban Ruiz\Documents\BitBucket\ProyIng2\AppDesktopCSharp\bin\Release\Microsoft.Expression.Encoder.xml
+C:\Users\Esteban Ruiz\Documents\BitBucket\ProyIng2\AppDesktopCSharp\bin\Release\Microsoft.Expression.Encoder.Types.xml
+C:\Users\Esteban Ruiz\Documents\BitBucket\ProyIng2\AppDesktopCSharp\bin\Release\Microsoft.Expression.Encoder.Utilities.xml
+C:\Users\Esteban Ruiz\Documents\BitBucket\ProyIng2\AppDesktopCSharp\obj\x86\Release\AppCamara.csprojResolveAssemblyReference.cache
+C:\Users\Esteban Ruiz\Documents\BitBucket\ProyIng2\AppDesktopCSharp\obj\x86\Release\EE4Test.frmEE4WebCam.resources
+C:\Users\Esteban Ruiz\Documents\BitBucket\ProyIng2\AppDesktopCSharp\obj\x86\Release\EE4WebCam.Properties.Resources.resources
+C:\Users\Esteban Ruiz\Documents\BitBucket\ProyIng2\AppDesktopCSharp\obj\x86\Release\AppCamara.csproj.GenerateResource.Cache
+C:\Users\Esteban Ruiz\Documents\BitBucket\ProyIng2\AppDesktopCSharp\bin\Release\EE4WebCam.exe.manifest
+C:\Users\Esteban Ruiz\Documents\BitBucket\ProyIng2\AppDesktopCSharp\bin\Release\EE4WebCam.application
+C:\Users\Esteban Ruiz\Documents\BitBucket\ProyIng2\AppDesktopCSharp\obj\x86\Release\EE4WebCam.exe.manifest
+C:\Users\Esteban Ruiz\Documents\BitBucket\ProyIng2\AppDesktopCSharp\obj\x86\Release\EE4WebCam.application

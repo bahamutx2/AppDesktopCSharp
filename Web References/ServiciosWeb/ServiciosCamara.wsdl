@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ValidarUsuarioCSharp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidarUsuarioCSharpResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ValidarUsuarioCSharpResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerCamarasDisponibles">
+        <s:complexType />
+      </s:element>
+      <s:element name="ObtenerCamarasDisponiblesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerCamarasDisponiblesResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="obtenerTiempoVideo">
+        <s:complexType />
+      </s:element>
+      <s:element name="obtenerTiempoVideoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="obtenerTiempoVideoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="grabarEnCamara">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nombrecamara" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="grabarEnCamaraResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="subirVideoLogico">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nombrearchivo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="subirVideoLogicoResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ValidarUsuarioCSharpSoapIn">
+    <wsdl:part name="parameters" element="tns:ValidarUsuarioCSharp" />
+  </wsdl:message>
+  <wsdl:message name="ValidarUsuarioCSharpSoapOut">
+    <wsdl:part name="parameters" element="tns:ValidarUsuarioCSharpResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerCamarasDisponiblesSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerCamarasDisponibles" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerCamarasDisponiblesSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerCamarasDisponiblesResponse" />
+  </wsdl:message>
+  <wsdl:message name="obtenerTiempoVideoSoapIn">
+    <wsdl:part name="parameters" element="tns:obtenerTiempoVideo" />
+  </wsdl:message>
+  <wsdl:message name="obtenerTiempoVideoSoapOut">
+    <wsdl:part name="parameters" element="tns:obtenerTiempoVideoResponse" />
+  </wsdl:message>
+  <wsdl:message name="grabarEnCamaraSoapIn">
+    <wsdl:part name="parameters" element="tns:grabarEnCamara" />
+  </wsdl:message>
+  <wsdl:message name="grabarEnCamaraSoapOut">
+    <wsdl:part name="parameters" element="tns:grabarEnCamaraResponse" />
+  </wsdl:message>
+  <wsdl:message name="subirVideoLogicoSoapIn">
+    <wsdl:part name="parameters" element="tns:subirVideoLogico" />
+  </wsdl:message>
+  <wsdl:message name="subirVideoLogicoSoapOut">
+    <wsdl:part name="parameters" element="tns:subirVideoLogicoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiciosCamaraSoap">
+    <wsdl:operation name="ValidarUsuarioCSharp">
+      <wsdl:input message="tns:ValidarUsuarioCSharpSoapIn" />
+      <wsdl:output message="tns:ValidarUsuarioCSharpSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerCamarasDisponibles">
+      <wsdl:input message="tns:ObtenerCamarasDisponiblesSoapIn" />
+      <wsdl:output message="tns:ObtenerCamarasDisponiblesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTiempoVideo">
+      <wsdl:input message="tns:obtenerTiempoVideoSoapIn" />
+      <wsdl:output message="tns:obtenerTiempoVideoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="grabarEnCamara">
+      <wsdl:input message="tns:grabarEnCamaraSoapIn" />
+      <wsdl:output message="tns:grabarEnCamaraSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="subirVideoLogico">
+      <wsdl:input message="tns:subirVideoLogicoSoapIn" />
+      <wsdl:output message="tns:subirVideoLogicoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiciosCamaraSoap" type="tns:ServiciosCamaraSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ValidarUsuarioCSharp">
+      <soap:operation soapAction="http://tempuri.org/ValidarUsuarioCSharp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerCamarasDisponibles">
+      <soap:operation soapAction="http://tempuri.org/ObtenerCamarasDisponibles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTiempoVideo">
+      <soap:operation soapAction="http://tempuri.org/obtenerTiempoVideo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="grabarEnCamara">
+      <soap:operation soapAction="http://tempuri.org/grabarEnCamara" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="subirVideoLogico">
+      <soap:operation soapAction="http://tempuri.org/subirVideoLogico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiciosCamaraSoap12" type="tns:ServiciosCamaraSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ValidarUsuarioCSharp">
+      <soap12:operation soapAction="http://tempuri.org/ValidarUsuarioCSharp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerCamarasDisponibles">
+      <soap12:operation soapAction="http://tempuri.org/ObtenerCamarasDisponibles" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerTiempoVideo">
+      <soap12:operation soapAction="http://tempuri.org/obtenerTiempoVideo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="grabarEnCamara">
+      <soap12:operation soapAction="http://tempuri.org/grabarEnCamara" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="subirVideoLogico">
+      <soap12:operation soapAction="http://tempuri.org/subirVideoLogico" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiciosCamara">
+    <wsdl:port name="ServiciosCamaraSoap" binding="tns:ServiciosCamaraSoap">
+      <soap:address location="http://www.ciudadcontradelincuencia.somee.com/ServiciosCamara.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiciosCamaraSoap12" binding="tns:ServiciosCamaraSoap12">
+      <soap12:address location="http://www.ciudadcontradelincuencia.somee.com/ServiciosCamara.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,22 @@
+C:\Users\Esteban Ruiz\Desktop\EE4WebCam\bin\Debug\EE4WebCam.exe
+C:\Users\Esteban Ruiz\Desktop\EE4WebCam\bin\Debug\EE4WebCam.pdb
+C:\Users\Esteban Ruiz\Desktop\EE4WebCam\bin\Debug\Microsoft.Expression.Encoder.dll
+C:\Users\Esteban Ruiz\Desktop\EE4WebCam\bin\Debug\Microsoft.Expression.Encoder.Types.dll
+C:\Users\Esteban Ruiz\Desktop\EE4WebCam\bin\Debug\Microsoft.Expression.Encoder.Utilities.dll
+C:\Users\Esteban Ruiz\Desktop\EE4WebCam\bin\Debug\Microsoft.Expression.Encoder.xml
+C:\Users\Esteban Ruiz\Desktop\EE4WebCam\bin\Debug\Microsoft.Expression.Encoder.Types.xml
+C:\Users\Esteban Ruiz\Desktop\EE4WebCam\bin\Debug\Microsoft.Expression.Encoder.Utilities.xml
+C:\Users\Esteban Ruiz\Desktop\EE4WebCam\obj\x86\Debug\EE4WebCam.csprojResolveAssemblyReference.cache
+C:\Users\Esteban Ruiz\Desktop\EE4WebCam\obj\x86\Debug\EE4Test.frmEE4WebCam.resources
+C:\Users\Esteban Ruiz\Desktop\EE4WebCam\obj\x86\Debug\EE4WebCam.Properties.Resources.resources
+C:\Users\Esteban Ruiz\Desktop\EE4WebCam\obj\x86\Debug\EE4WebCam.csproj.GenerateResource.Cache
+C:\Users\Esteban Ruiz\Desktop\EE4WebCam\obj\x86\Debug\EE4WebCam.exe
+C:\Users\Esteban Ruiz\Desktop\EE4WebCam\obj\x86\Debug\EE4WebCam.pdb
+C:\Users\Néstor\Desktop\EE4WebCam\obj\x86\Debug\EE4WebCam.exe
+C:\Users\Néstor\Desktop\EE4WebCam\obj\x86\Debug\EE4WebCam.pdb
+C:\Users\Néstor\Desktop\EE4WebCam\bin\Debug\EE4WebCam.exe
+C:\Users\Néstor\Desktop\EE4WebCam\bin\Debug\EE4WebCam.pdb
+C:\Users\Néstor\Desktop\EE4WebCam\obj\x86\Debug\EE4WebCam.csprojResolveAssemblyReference.cache
+C:\Users\Néstor\Desktop\EE4WebCam\obj\x86\Debug\EE4Test.frmEE4WebCam.resources
+C:\Users\Néstor\Desktop\EE4WebCam\obj\x86\Debug\EE4WebCam.Properties.Resources.resources
+C:\Users\Néstor\Desktop\EE4WebCam\obj\x86\Debug\EE4WebCam.csproj.GenerateResource.Cache
